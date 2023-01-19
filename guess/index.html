@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="game.js"></script>
+  <title>Guess the number</title>
+</head>
+<body>
+  <button onclick="handleAgain()">Again !</button>
+  <h1>Guess the number</h1>
+  <h1 class="ans">[ ? ]</h1>
+  <input onchange="handleChange()" id="uinput"/>
+  <button onclick="handleCheck()">Check :)</button>
+  <h4 id="response"></h4>
+
+  <h4>Score = <span id="scoreId"></span></h4>
+  <h4>High Score = <span id="highscoreId"></span></h4>
+</body>
+</html>
